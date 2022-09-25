@@ -34,12 +34,12 @@ Dopodiché dividere i file in due cartelle:
 - ```./CinemaSvr/CinemaSvr.class```
 - ```./CinemaClt/Icinema.class```
 - ```./CinemaSvr/CinemaSvr.class```
-**NB**
-I file ```./CinemaSvr/Icinema.class``` e ```./CinemaClt/Icinema.class``` sono la stessa cosa!
 A questo punto portarsi in una delle due cartelle e dare il seguente comando
 ```bash
 jar -cf <NomeCartella>.jar *.class
 ```
+#### NB
+I file ```./CinemaSvr/Icinema.class``` e ```./CinemaClt/Icinema.class``` sono la stessa cosa!
 ## Prerequisiti
 Inolte tale codice necessita anche di:
 - l'uso di **JDBC** del giusto connettore, nell'esempio è stato usato *mysql-j-connector*
