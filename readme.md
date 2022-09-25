@@ -22,6 +22,7 @@ Per l'avvio del progetto è necessario aver avviato il DBMS dopodiché è necess
 - ```id183ovzRmiServerSideScript.sh``` script che avvia il progetto
 - ```CinemaSvr.jar``` gestisce il lato server
 - ```CinemaClt.jar``` gestisce il lato client
+
 Ovviamente in questo repository non sono disponibili i file ```.jar``` ma soltanto i sorgenti in formato ```.java```.
 È quindi necessario creare i file ```.jar``` a partire dai file sorgenti disponibili
 ### Creazione dei file jar
@@ -34,6 +35,7 @@ Dopodiché dividere i file in due cartelle:
 - ```./CinemaSvr/CinemaSvr.class```
 - ```./CinemaClt/Icinema.class```
 - ```./CinemaSvr/CinemaSvr.class```
+
 A questo punto portarsi in una delle due cartelle e dare il seguente comando
 ```bash
 jar -cf <NomeCartella>.jar *.class
